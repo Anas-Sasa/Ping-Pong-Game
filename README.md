@@ -1,2 +1,16 @@
 # Ping-Pong-Game
-It's a project to practice inheritance and working with the turtle module's movement. Working with the project and dividing it into files. Practice importing the class from the modules.
+
+A classic Ping Pong game built with Python's Turtle module to practice inheritanc.
+
+## Project Structure:
+> - `main.py` - Main game logic and loop and collision detection
+> - `paddle.py` - Paddle class handling movement and generation
+> - `ball.py` - Ball generation
+> - `scoreboard.py` - Score tracking and display
+
+## How to Play:
+
+> - Use arrow keys to control the player paddle
+> - Computer paddle moves automatically
+> - Break through the opponent's wall to increase score
+> - The more times the ball hitting the paddle, the faster it moves
